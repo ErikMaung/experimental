@@ -1,0 +1,35 @@
+.custom-button {
+  font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: large;
+  border-radius: 50vh;
+  border: none;
+  padding: 7px 20px 10px 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+  text-decoration: none;
+}
+
+.custom-button.primary {
+  background-color: #3498db;
+  color: white;
+}
+
+.custom-button.secondary {
+  background-color: #95a5a6;
+  color: white;
+}
+
+.custom-button.success {
+  background-color: #2ecc71;
+  color: white;
+}
+
+.custom-button.danger {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.custom-button:hover {
+  cursor: pointer;
+  transform: scale(var(--scale-value)); /* Use the CSS variable for scaling */
+}

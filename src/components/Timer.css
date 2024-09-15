@@ -1,0 +1,58 @@
+.timer-container {
+  max-width: 400px;
+  margin: 16px auto;
+  text-align: center;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.timer-container h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.timer-container input[type='datetime-local'] {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.timer-container p {
+  font-size: 1.2rem;
+  color: #008080;
+  margin-top: 10px;
+}
+
+.timer-container input[type='datetime-local']:focus {
+  outline: none;
+  border-color: #66afe9;
+  box-shadow: 0 0 8px #66afe9;
+}
+
+.timer-container p .time-in-hours {
+  font-size: 3rem;
+  font-weight: bold;
+  text-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+  animation: rainbow 8s infinite;
+  transition: transform 0.3s ease-in-out;
+}
+
+@keyframes rainbow {
+  0% { color: #990435; }
+  15% { color: #770e8a; }
+  35% { color: #04599e; }
+  50% { color: #0f8113; }
+  70% { color: #796d06; }
+  85% { color: #a76502; }
+  100% { color: #990435; }
+}
+
+.timer-container p .time-in-hours:hover {
+  cursor: pointer;
+}

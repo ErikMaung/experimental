@@ -3,7 +3,7 @@ import { Container, Title, MantineProvider } from '@mantine/core';
 import './App.css';
 import CustomButton from './components/CustomButton';
 import AnimatedList from './components/AnimatedList';
-
+import Timer from './components/Timer';
 
 function App() {
   const [isFun, setIsFun] = useState(false);
@@ -26,6 +26,7 @@ function App() {
           <CustomButton label={isFun ? "Deactivate Fun" : "Activate Fun"} type={isFun ? "success" : "secondary"} scaleValue={scaleValue} onClick={toggleFun} />
         </div>
         <AnimatedList />
+        <Timer />
       </Container>
       <Container className="footer">
         &copy; Erik Maung 2024

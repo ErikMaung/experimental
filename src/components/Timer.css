@@ -38,7 +38,6 @@
 .timer-container p .time-in-hours {
   font-size: 3rem;
   font-weight: bold;
-  text-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
   animation: rainbow 8s infinite;
   transition: transform 0.3s ease-in-out;
 }

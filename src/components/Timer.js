@@ -27,13 +27,7 @@ function Timer() {
     {
       targetDateTime: '2024-09-18T18:30',
       hoursRemaining: 0,
-      moneyPerHour: 10.0,
-      moneyEarned: 0,
-    },
-    {
-      targetDateTime: '2024-09-18T18:30',
-      hoursRemaining: 0,
-      moneyPerHour: 20.0,
+      moneyPerHour: 30.0,
       moneyEarned: 0,
     },
   ]);

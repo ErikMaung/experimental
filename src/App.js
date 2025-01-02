@@ -54,7 +54,7 @@ function App() {
         <AnimatedList scaleValue={scaleValue} />
         <Timer />
       </Container>
-      <Container className="footer">&copy; Erik Maung 2024</Container>
+      <Container className="footer">&copy; Erik Maung 2025</Container>
     </MantineProvider>
   );
 }

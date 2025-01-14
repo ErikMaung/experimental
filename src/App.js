@@ -10,7 +10,7 @@ function App() {
   const [isFun, setIsFun] = useState(false);
   const [scaleValue, setScaleValue] = useState(1.1);
   const [showMouseTrail, setShowMouseTrail] = useState(true); // State to manage mouse trail visibility
-
+  const year = '2025';
   const toggleFun = () => {
     setScaleValue(scaleValue === 1.1 ? 1.9 : 1.1);
     setIsFun(!isFun);
@@ -54,7 +54,7 @@ function App() {
         <AnimatedList scaleValue={scaleValue} />
         <Timer />
       </Container>
-      <Container className="footer">&copy; Erik Maung 2025</Container>
+      <Container className="footer">&copy; Erik Maung {year}</Container>
     </MantineProvider>
   );
 }

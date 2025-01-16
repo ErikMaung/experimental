@@ -2,7 +2,7 @@
 
 &copy; 2025
 
-This is the experimental page of [Erik Maung's GitHub pages](https://erikmaung.github.io/experimental).
+This is the experimental webpage of [Erik Maung's GitHub pages](https://erikmaung.github.io/experimental).
 
 For my homepage, navigate to the [root page](https://erikmaung.github.io/).
 

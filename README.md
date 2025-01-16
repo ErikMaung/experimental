@@ -7,3 +7,4 @@ This is the experimental webpage of [Erik Maung's GitHub pages](https://erikmaun
 For my homepage, navigate to the [root page](https://erikmaung.github.io/).
 
 For my portfolio, navigate to the [portfolio subdirectory](https://erikmaung.github.io/portfolio).
+
